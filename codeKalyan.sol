@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract token is ERC20, Ownable {
     constructor(address initialOwner)
-        ERC20("RYZEN", "RYZ")
+        ERC20("KALYAN", "KLY")
         Ownable(initialOwner)
     {}
 
